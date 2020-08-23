@@ -65,7 +65,7 @@ class ListFragment : Fragment(), SearchView.OnQueryTextListener {
                 // Delete Item
                 mToDoViewModel.deleteItem(deletedItem)
                 adapter.notifyItemRemoved(viewHolder.adapterPosition)
-                // Restore delted item
+                // Restore deleted item
                 restoreDeletedData(viewHolder.itemView, deletedItem, viewHolder.adapterPosition)
             }
         }
