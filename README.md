@@ -1,7 +1,7 @@
 # ToDoList
 A Todo list app
 
-This app was with the intent to excersize some of the Android development concepts that I have been studying.
+This app is coded in Kotlin and was created with the intent to excersize some of the Android development concepts that I have been studying.
 The app uses 3 fragments.
 1. A "display" or "home" fragment (Where all of the ToDo items are listed)
 2. An "add" fragment (Where the user creates a new todo list item)
